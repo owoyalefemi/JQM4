@@ -1,0 +1,23 @@
+This is a playing around with JQuery Mobile using an example scenario:
+//Using a hand-held device (e.g. a web enabled phone) a customer inputs information to the form about their claim: 
+- the shipment number from the original receipt, 
+- name/address, and 
+- a description of loss/damage. 
+
+//When the customer submits the form, 
+- the web site responds with a claim id for further tracking.
+
+We want to achieve:
+1. Short response time: so we'll design all functionalities on a page
+2. Error handling: If the user forgets to enter a required field in the form, submission should fail with a warning dialog. 
+3. Support for multiple devices/browsers:
+
+Simple Algorithmic flowchart:
+Main Content--->(form submitted) Transition COntent--->(response received)Confirmation content
+         |                            |
+          |                           |
+         ------------------------------
+If there is missing content go back to Dialog Content to take you back to main content form.
+
+
+http://www.giantflyingsaucer.com/blog/?p=2574

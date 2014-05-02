@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type" />
+  <title>Jquery Test App</title>
+  <link rel="stylesheet"
+ href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script
+ src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+  <meta name="viewport" content="width=device-width,"
+ initial-scale="1," maximum-scale="1" /> 
+ <style>
+ img.fullscreen{
+ max-height: 100%;
+ max-width: 100%;
+ }
+ </style>
+    <link rel="stylesheet" type="text/css" href="include/style1.css" />
+</head>
+<body>
+<div data-role="page" id="mainpa">
+<header data-role="header" class="logo">
+</header>
+<article data-role="content">
+<ul data-role="listview" data-filter="true" class="thebg">
+<li>
+<a href="#pubs" id="page" class="mainmenu">
+<h1>Pubs</h1>
+<p>
+This us what happens when a friend brings a dog to studio.
+</p>
+</a>
+</li>
+
+<li>
+<a href="#resta" id="page" class="mainmenu">
+<h1>Restaurants</h1>
+<p>
+This is a where to eat
+</p>
+</a>
+</li>
+
+<li>
+<a href="#event" id="page" class="mainmenu">
+<h1>Events Information</h1>
+<p>
+These are the events
+</p>
+</a>
+</li>
+
+<li>
+<a href="#map" id="page">
+<h1>Map</h1>
+<p>
+Description of destination
+</p>
+</a>
+</li>
+
+<li>
+<a href="#contact">
+<h1>Contact</h1>
+<p>
+Where we live
+</p>
+</a>
+</li>
+
+<li>
+<a href="#tickets">
+<h1>Tickets Location</h1>
+<p>
+Where to buy tickets
+</p>
+</a>
+</li>
+
+</ul>
+
+</article>
+
+<footer data-role="footer" data-position ="fixed">
+<nav data-role="navbar">
+<ul>
+  <li><a href="#" data-icon="home">Home</a></li>
+  <li><a href="#" data-icon="grid">Photos</a></li>
+  <li><a href="#" data-icon="info">Info</a></li>
+</ul>
+</nav>
+</footer>
+</div> <!-- end of page 1 -->
+
+<!-- beginning of page 2 dog -->
+<div data-role="page" id="resta">
+<header data-role="header">
+<h1>Dog</h1>
+<a href="#mainpa" data-icons="home" data-iconpos="notext">Photos</a>
+</header>
+    <div data-role="navbar">
+    <ul>
+        <li><a href="#event">Event</a></li>
+        <li><a href="#pubs">Pubs</a></li>
+        <li><a href="#map">Map</a></li>
+    </ul>
+    </div>
+<div data-role="content">
+    <div data-role="collapsible-set">
+    <div data-role="collapsible" data-collapsed="true">
+        <h2>My Library</h2>
+         <p>
+    Despite the ravaging flood which has sacked thousands of persons in several communities, the National Emergency Management Agency (NEMA) has warned that there will yet be even more flood in the days ahead. The warning is coming as dangerous animals like crocodiles and hippos are already invading homes in several communities in the north. Considering the magnitude of the disaster, NEMA has alerted international bodies such as the Red Cross and Red Crescent for support to address the needs of the victims across about 40 relief camps set up across the state to assist the victims," Chinoko said.
+    </p>
+    </div>
+  <div data-role="collapsible" data-collapsed="true">
+  <h2>My Library</h2>
+         <p></p>
+  </div>
+        <div data-role="collapsible" data-collapsed="true">
+        <h2>My Work</h2>
+         <p></p>
+        </div>
+        </div>
+    <p>
+    Despite the ravaging flood which has sacked thousands of persons in several communities, the National Emergency Management Agency (NEMA) has warned that there will yet be even more flood in the days ahead. The warning is coming as dangerous animals like crocodiles and hippos are already invading homes in several communities in the north. Considering the magnitude of the disaster, NEMA has alerted international bodies such as the Red Cross and Red Crescent for support to address the needs of the victims across about 40 relief camps set up across the state to assist the victims," Chinoko said.
+    </p>
+</div>
+<footer data-role="footer" data-position ="fixed">
+<nav data-role="navbar">
+<ul>
+  <li><h4><a href="#mainpa" data-icon="back" data-role="button" data-iconpos="notext">Home</a></h4></li>
+</ul>
+</nav>
+</footer>
+</div>
+
+<!-- beginning of page 2 gummy -->
+<div data-role="page" id="pubs">
+<header data-role="header">
+<h1>Pubs Network</h1>
+<a href="#mainpa" data-icons="home" data-iconpos="notext">Photos</a>
+</header>
+<div class="ui-grid-b my-breakpoint" id="moderate">
+	<div class="ui-block-a"><h2>Office Address:</h2>
+    <p>26A, Adekoba street, Yaba</p>
+    <p>Lagos STate</p>
+    </div>
+
+	<div class="ui-block-c"><h2>Home Address</h2>
+    <p>12, Isauru street, Sagamu</p>
+    </div>
+</div><!-- /grid-c -->
+</div> <!-- end of page 2 -->
+
+<!-- beginning of page 3  -->
+<div data-role="page" id="event">
+<header data-role="header">
+<h1>Gummy Bears</h1>
+<a href="#mainpa" data-icons="home" data-iconpos="notext">Photos</a>
+</header>
+<img style="border: 0px solid " src="images/gummies_tn.jpg.jpg" alt="gummies" class="fullscreen" />
+</div> <!-- end of page 3 -->
+
+<!-- beginning of page 4 -->
+<div data-role="page" id="map">
+<header data-role="header">
+<h1>THe Map</h1>
+<a href="#mainpa" data-icons="home" data-iconpos="notext">Home</a>
+</header>
+    <div data-role="content">
+    <p>Here we go again. On the 22nd of October I got married to the young lady.</p>
+    <script src="//www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/114281111391296844949/driving-directions.xml&amp;up_fromLocation=&amp;up_myLocations=Asemakatu%2026%2C%20Turku%2C%20Finland&amp;up_defaultDirectionsType=&amp;up_autoExpand=&amp;synd=open&amp;w=320&amp;h=55&amp;title=Directions+by+Google+Maps&amp;lang=en&amp;country=US&amp;border=%23ffffff%7C3px%2C1px+solid+%23999999&amp;output=js"></script>
+    </div>
+ <footer data-role="footer" data-position ="fixed">
+<nav data-role="navbar">
+<ul>
+  <li><h4><a href="#mainpa" data-icon="back" data-role="button" data-iconpos="notext">Home</a></h4></li>
+</ul>
+</nav>
+</footer>
+</div> <!-- end of page 4 -->
+
+<!-- beginning of page 5 -->
+<div data-role="page" id="contact">
+<header data-role="header">
+<h1>Gummy Bears</h1>
+<a href="#mainpa" data-icons="home" data-iconpos="notext">Photos</a>
+</header>
+<img style="border: 0px solid " src="images/gummies_tn.jpg.jpg" alt="gummies" class="fullscreen" />
+</div> <!-- end of page 5 -->
+
+<!-- beginning of page 6 -->
+<div data-role="page" id="tickets">
+<header data-role="header">
+<h1>Gummy Bears</h1>
+<a href="#mainpa" data-icons="home" data-iconpos="notext">Photos</a>
+</header>
+<img style="border: 0px solid " src="images/gummies_tn.jpg.jpg" alt="gummies" class="fullscreen" />
+</div> <!-- end of page 4 -->
+<br />
+</body>
+</html>
